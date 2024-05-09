@@ -54,7 +54,7 @@ pipeline {
                     }
                     stage("2.2. Fetch base CI") {
                         sh """
-                            git clone https://github.com/savoirfairelinux/base_ci.git
+                            git clone https://github.com/phanirajkiran/base_ci.git
                         """
                     }
                     stage("2.3. Fetch bash tools") {
